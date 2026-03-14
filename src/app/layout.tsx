@@ -33,10 +33,6 @@ export default function RootLayout({
       <body>
         <div id="wrapper">
           <a href="#" id="back-to-top"></a>
-          
-          {/* page preloader begin */}
-          <div id="de-loader"></div>
-          {/* page preloader close */}
 
           <Header />
           {children}

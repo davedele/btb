@@ -139,7 +139,7 @@ export default function Page() {
 
                                 <div className="abs ol-lg-12 pos-sm-relative bottom-0">
                                     <div className="d-flex align-items-center justify-content-between border-bottom pb-4 mb-4 c wow fadeInUp" data-wow-delay=".9s">
-                                        <a className="btn-main fx-slide me-5 wow fadeInUp" data-wow-delay=".6s" href="booking.html"><span>Get Started Now</span></a>
+                                        <a className="btn-main fx-slide me-5 wow fadeInUp" data-wow-delay=".6s" href="/contact"><span>Get Started Now</span></a>
                                         <div className="d-flex align-items-center">
                                             <div className="me-4">
                                                 <img src="images/testimonial/1.webp" className="w-50px circle ms-min-10" alt="" />
@@ -166,7 +166,7 @@ export default function Page() {
                             <h3 className="mb-0 fs-32 split">Ready to Ship Your Cargo Worldwide?</h3>
                         </div>
                         <div className="col-lg-3 text-lg-end">
-                            <a className="btn-main fx-slide btn-line wow fadeInRight" data-wow-delay=".2s" href="booking.html"><span>Book Shipment</span></a>
+                            <a className="btn-main fx-slide btn-line wow fadeInRight" data-wow-delay=".2s" href="/contact"><span>Book Shipment</span></a>
                         </div>
                     </div>
                 </div>

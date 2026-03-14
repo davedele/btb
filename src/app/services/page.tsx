@@ -26,7 +26,7 @@ export default function Page() {
 
                     <div className="row g-4 gx-5">
                         <div className="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay="0s">
-                            <a href="service-single.html" className="d-block hover relative">
+                            <a href="/services" className="d-block hover relative">
                                 <img src="images/icons-color/1.png" className="w-70px mb-3 hover-jello infinite" alt="" />
                                 <h4>Trucking</h4>
                                 <p>Reliable ground transportation for shipments across the United States with flexible fleet options.</p>
@@ -34,7 +34,7 @@ export default function Page() {
                         </div>
 
                         <div className="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay=".2s">
-                            <a href="service-single.html" className="d-block hover relative">
+                            <a href="/services" className="d-block hover relative">
                                 <img src="images/icons-color/2.png" className="w-70px mb-3 hover-jello infinite" alt="" />
                                 <h4>LTL Shipping</h4>
                                 <p>Fast delivery of time-sensitive cargo using global air routes with real-time tracking.</p>
@@ -42,7 +42,7 @@ export default function Page() {
                         </div>
 
                         <div className="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay=".4s">
-                            <a href="service-single.html" className="d-block hover relative">
+                            <a href="/services" className="d-block hover relative">
                                 <img src="images/icons-color/3.png" className="w-70px mb-3 hover-jello infinite" alt="" />
                                 <h4>Expedited Shipping</h4>
                                 <p>Cost-effective shipping solution for bulk cargo with dependable international sea freight services.</p>
@@ -50,7 +50,7 @@ export default function Page() {
                         </div>
 
                         <div className="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay=".6s">
-                            <a href="service-single.html" className="d-block hover relative">
+                            <a href="/services" className="d-block hover relative">
                                 <img src="images/icons-color/4.png" className="w-70px mb-3 hover-jello infinite" alt="" />
                                 <h4>Rail Freight</h4>
                                 <p>Efficient and eco-friendly rail transport option ideal for long-distance heavy shipments.</p>
@@ -59,7 +59,7 @@ export default function Page() {
 
                         {/*  New services  */}
                         <div className="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay="0s">
-                            <a href="service-single.html" className="d-block hover relative">
+                            <a href="/services" className="d-block hover relative">
                                 <img src="images/icons-color/5.png" className="w-70px mb-3 hover-jello infinite" alt="" />
                                 <h4>Warehousing</h4>
                                 <p>Secure storage with inventory management, order fulfillment, and nationwide distribution.</p>
@@ -67,7 +67,7 @@ export default function Page() {
                         </div>
 
                         <div className="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay=".2s">
-                            <a href="service-single.html" className="d-block hover relative">
+                            <a href="/services" className="d-block hover relative">
                                 <img src="images/icons-color/6.png" className="w-70px mb-3 hover-jello infinite" alt="" />
                                 <h4>Customs Brokerage</h4>
                                 <p>Expert assistance in navigating import/export regulations to ensure smooth customs clearance.</p>
@@ -75,7 +75,7 @@ export default function Page() {
                         </div>
 
                         <div className="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay=".4s">
-                            <a href="service-single.html" className="d-block hover relative">
+                            <a href="/services" className="d-block hover relative">
                                 <img src="images/icons-color/7.png" className="w-70px mb-3 hover-jello infinite" alt="" />
                                 <h4>Last-Mile Delivery</h4>
                                 <p>Reliable end-to-end delivery service ensuring shipments reach customers’ doors quickly and safely.</p>
@@ -83,7 +83,7 @@ export default function Page() {
                         </div>
 
                         <div className="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay=".6s">
-                            <a href="service-single.html" className="d-block hover relative">
+                            <a href="/services" className="d-block hover relative">
                                 <img src="images/icons-color/8.png" className="w-70px mb-3 hover-jello infinite" alt="" />
                                 <h4>Project Cargo</h4>
                                 <p>Specialized transport solutions for oversized, heavy, or complex cargo requiring tailored logistics planning.</p>
@@ -176,7 +176,7 @@ export default function Page() {
                             <h3 className="mb-0 fs-32 split">Ready to Ship Your Cargo Worldwide?</h3>
                         </div>
                         <div className="col-lg-3 text-lg-end">
-                            <a className="btn-main fx-slide btn-line wow fadeInRight" data-wow-delay=".2s" href="booking.html"><span>Book Shipment</span></a>
+                            <a className="btn-main fx-slide btn-line wow fadeInRight" data-wow-delay=".2s" href="/contact"><span>Book Shipment</span></a>
                         </div>
                     </div>
                 </div>

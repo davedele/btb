@@ -187,7 +187,7 @@ export default function Page() {
                             <h3 className="mb-0 fs-32 split">Ready to Ship Your Cargo Worldwide?</h3>
                         </div>
                         <div className="col-lg-3 text-lg-end">
-                            <a className="btn-main fx-slide btn-line wow fadeInRight" data-wow-delay=".2s" href="booking.html"><span>Book Shipment</span></a>
+                            <a className="btn-main fx-slide btn-line wow fadeInRight" data-wow-delay=".2s" href="/contact"><span>Book Shipment</span></a>
                         </div>
                     </div>
                 </div>
