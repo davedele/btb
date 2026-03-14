@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="container">
           <div className="row g-4 justify-content-between">
             <div className="col-md-6">
-              <img src="/images/logo-white.webp" className="w-170px mb-2" alt="Box Truck Boys Trucking Logo" />
+              <img src="/images/btb_logo1.png" className="w-170px mb-2" alt="Box Truck Boys Trucking Logo" />
               <div className="spacer-single"></div>
               <div className="row g-4">
                 <div className="col-md-6">
@@ -84,7 +84,7 @@ export default function Footer() {
         </div>
 
         <div id="extra-content">
-          <img src="/images/logo-white.webp" className="w-200px" alt="" />
+          <img src="/images/btb_logo1.png" className="w-200px" alt="" />
 
           <div className="spacer-30-line"></div>
 

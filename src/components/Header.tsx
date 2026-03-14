@@ -11,9 +11,9 @@ export default function Header() {
                 {/* logo begin */}
                 <div id="logo">
                   <Link href="/">
-                    <img className="logo-main" src="/images/logo-white.webp" alt="Box Truck Boys Logo" />
-                    <img className="logo-scroll" src="/images/logo-white.webp" alt="Box Truck Boys Logo" />
-                    <img className="logo-mobile" src="/images/logo-white.webp" alt="Box Truck Boys Logo" />
+                    <img className="logo-main" src="/images/btb_logo1.png" alt="Box Truck Boys Logo" />
+                    <img className="logo-scroll" src="/images/btb_logo1.png" alt="Box Truck Boys Logo" />
+                    <img className="logo-mobile" src="/images/btb_logo1.png" alt="Box Truck Boys Logo" />
                   </Link>
                 </div>
                 {/* logo end */}
@@ -23,13 +23,13 @@ export default function Header() {
                 <ul id="mainmenu">
                   <li><Link className="menu-item" href="/">Home</Link></li>
                   <li>
-                    <span className="menu-item">Services</span>
+                    <a className="menu-item" href="#">Services</a>
                     <ul>
                       <li><Link href="/services">Our Services</Link></li>
                     </ul>
                   </li>
                   <li>
-                    <span className="menu-item">Company</span>
+                    <a className="menu-item" href="#">Company</a>
                     <ul>
                       <li><Link href="/about">About Us</Link></li>
                     </ul>
