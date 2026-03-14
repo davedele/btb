@@ -1,0 +1,58 @@
+import Link from "next/link";
+
+export default function Header() {
+  return (
+    <header className="header-static transparent mt-lg-4 pt-lg-2">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12">
+            <div className="de-flex sm-pt10">
+              <div className="de-flex-col">
+                {/* logo begin */}
+                <div id="logo">
+                  <Link href="/">
+                    <img className="logo-main" src="/images/logo-white.webp" alt="Box Truck Boys Logo" />
+                    <img className="logo-scroll" src="/images/logo-white.webp" alt="Box Truck Boys Logo" />
+                    <img className="logo-mobile" src="/images/logo-white.webp" alt="Box Truck Boys Logo" />
+                  </Link>
+                </div>
+                {/* logo end */}
+              </div>
+              <div className="de-flex-col header-col-mid">
+                {/* mainemenu begin */}
+                <ul id="mainmenu">
+                  <li><Link className="menu-item" href="/">Home</Link></li>
+                  <li>
+                    <span className="menu-item">Services</span>
+                    <ul>
+                      <li><Link href="/services">Our Services</Link></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <span className="menu-item">Company</span>
+                    <ul>
+                      <li><Link href="/about">About Us</Link></li>
+                    </ul>
+                  </li>
+                  <li><Link className="menu-item" href="/contact">Contact</Link></li>
+                </ul>
+                {/* mainmenu end */}
+              </div>
+              <div className="de-flex-col">
+                <div className="menu_side_area">
+                  <Link href="/contact" className="btn-main btn-line fx-slide"><span>Book Shipment</span></Link>
+                  <span id="menu-btn"></span>
+                </div>
+
+                <div id="btn-extra">
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  );
+}
