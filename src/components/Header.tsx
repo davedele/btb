@@ -25,7 +25,10 @@ export default function Header() {
                   <li>
                     <a className="menu-item" href="#">Services</a>
                     <ul>
-                      <li><Link href="/services">Our Services</Link></li>
+                      <li><Link href="/services">All Services</Link></li>
+                      <li><Link href="/services/medical-courier">Medical Courier</Link></li>
+                      <li><Link href="/services/same-day">Same-Day Delivery</Link></li>
+                      <li><Link href="/services/last-mile">Last-Mile Delivery</Link></li>
                     </ul>
                   </li>
                   <li>
@@ -40,7 +43,7 @@ export default function Header() {
               </div>
               <div className="de-flex-col">
                 <div className="menu_side_area">
-                  <Link href="/contact" className="btn-main btn-line fx-slide"><span>Book Shipment</span></Link>
+                  <Link href="/contact" className="btn-main btn-line fx-slide"><span>Get a Quote</span></Link>
                   <span id="menu-btn"></span>
                 </div>
 

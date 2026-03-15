@@ -1,3 +1,12 @@
+import type { Metadata } from "next";
+import ContactForm from "./ContactForm";
+
+export const metadata: Metadata = {
+  title: "Contact Box Truck Boys Trucking | Minneapolis Delivery Service",
+  description:
+    "Get a free delivery quote or schedule a pickup with Box Truck Boys Trucking in Minneapolis. Call (612) 237-7374 or fill out our online form.",
+};
+
 export default function Page() {
   return (
     <>
@@ -13,7 +22,7 @@ export default function Page() {
                             <ul className="crumb wow fadeInUp">
                                 <li><a href="/">Home</a></li>
                                 <li className="active">Contact Us</li>
-                            </ul>   
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -26,9 +35,9 @@ export default function Page() {
                   <div className="row align-items-center justify-content-center">
                     <div className="col-lg-6">
                         <div className="subtitle">Contact Us Now</div>
-                        <h2 className="wow fadeInUp">We’re here to answer your questions.</h2>
+                        <h2 className="wow fadeInUp">Get a free delivery quote or schedule a pickup.</h2>
 
-                        <p className="col-lg-8">Have a question, suggestion, or just want to say hi? We’re here and happy to hear from you!</p>
+                        <p className="col-lg-8">Whether you need a medical courier, same-day delivery, or box truck freight, we are ready to help. Reach out and we will respond within the hour.</p>
 
                         <div className="spacer-single"></div>
 
@@ -37,7 +46,15 @@ export default function Page() {
                                 <div className="relative mb-4">
                                     <i className="abs fs-28 p-3 bg-color text-light rounded-1 icofont-location-pin"></i>
                                     <div className="ms-80px">
-                                        <h4 className="mb-0">Office Location</h4>
+                                        <h4 className="mb-0">Minneapolis HQ</h4>
+                                        3327 N Washburn Ave, Minneapolis MN 55412
+                                    </div>
+                                </div>
+
+                                <div className="relative mb-4">
+                                    <i className="abs fs-28 p-3 bg-color text-light rounded-1 icofont-location-pin"></i>
+                                    <div className="ms-80px">
+                                        <h4 className="mb-0">Omaha Office</h4>
                                         7734 Nebraska Ave, Omaha NE 68134
                                     </div>
                                 </div>
@@ -46,7 +63,7 @@ export default function Page() {
                                     <i className="abs fs-28 p-3 bg-color text-light rounded-1 icofont-envelope"></i>
                                     <div className="ms-80px">
                                         <h4 className="mb-0">Send a Message</h4>
-                                        contact@uhome-property.com
+                                        contact@boxtruckboys.com
                                     </div>
                                 </div>
 
@@ -54,53 +71,17 @@ export default function Page() {
                                     <i className="abs fs-28 p-3 bg-color text-light rounded-1 icofont-phone"></i>
                                     <div className="ms-80px">
                                         <h4 className="mb-0">Call Us Directly</h4>
-                                        (123) 202-9296
+                                        (612) 237-7374
                                     </div>
                                 </div>
-                                
+
                             </div>
                         </div>
 
                     </div>
 
                     <div className="col-lg-6">
-                        <div className="bg-light rounded-1 p-60 relative">
-                            <form name="contactForm" id="contact_form" method="post" action="#">
-                            <div className="row g-4">
-                                <div className="col-lg-12">
-                                    <h3>Get In Touch</h3>
-                                    <p>Have a question, suggestion, or just want to say hi? Fill out the form below and we’ll get back to you soon.</p>
-
-                                    <div className="field-set">
-                                        <input type="text" name="name" id="name" className="form-control mb-4" placeholder="Your Name" required />
-                                    </div>
-
-                                    <div className="field-set">
-                                        <input type="text" name="email" id="email" className="form-control mb-4" placeholder="Your Email" required />
-                                    </div>
-
-                                    <div className="field-set">
-                                        <input type="text" name="phone" id="phone" className="form-control mb-4" placeholder="Your Phone" required />
-                                    </div>
-
-                                    <div className="field-set">
-                                        <textarea name="message" id="message" className="form-control mb-4 h-100px" placeholder="Your Message" required></textarea>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div id='submit' className="mt-3">
-                                <input type='submit' id='send_message' value='Send Message' className="btn-main" />
-                            </div>
-
-                            <div id="success_message" className='success'>
-                                Your message has been sent successfully. Refresh this page if you want to send more messages.
-                            </div>
-                            <div id="error_message" className='error'>
-                                Sorry there was an error sending your form.
-                            </div>
-                        </form>
-                        </div>
+                        <ContactForm />
                     </div>
                   </div>
                 </div>
@@ -123,50 +104,50 @@ export default function Page() {
 
                                         <div className="item">
                                             <i className="icofont-quote-left id-color fs-40 mb-4 wow fadeInUp"></i>
-                                            <h3 className="mb-4 wow fadeInUp fs-32">Trucking service kept our supply chain moving smoothly with reliable nationwide coverage and flexible scheduling that minimized delays.</h3>
-                                            <span className="wow fadeInUp">Logistics Manager, RetailCo</span>
+                                            <h3 className="mb-4 wow fadeInUp fs-32">Box Truck Boys handles our daily lab specimen pickups with precision. They understand the urgency and never miss a window. Absolutely reliable.</h3>
+                                            <span className="wow fadeInUp">Lab Manager, Hennepin Healthcare</span>
                                         </div>
 
                                         <div className="item">
                                             <i className="icofont-quote-left id-color fs-40 mb-4 wow fadeInUp"></i>
-                                            <h3 className="mb-4 wow fadeInUp fs-32">LTL Shipping ensured our urgent shipments reached clients overseas right on time, providing peace of mind with accurate tracking updates.</h3>
-                                            <span className="wow fadeInUp">Operations Head, TechWorld</span>
+                                            <h3 className="mb-4 wow fadeInUp fs-32">We switched to Box Truck Boys for same-day delivery and have not looked back. Faster response times and better communication than our previous provider.</h3>
+                                            <span className="wow fadeInUp">Operations Manager, North Loop Retail</span>
                                         </div>
 
                                         <div className="item">
                                             <i className="icofont-quote-left id-color fs-40 mb-4 wow fadeInUp"></i>
-                                            <h3 className="mb-4 wow fadeInUp fs-32">Expedited Shipping provided a cost-effective solution for our large international cargo, handling every step with dependable coordination and care.</h3>
-                                            <span className="wow fadeInUp">Supply Officer, GlobalMart</span>
+                                            <h3 className="mb-4 wow fadeInUp fs-32">Their medical courier service keeps our pharmacy supplied without interruption. The drivers are professional and always on time.</h3>
+                                            <span className="wow fadeInUp">Head Pharmacist, Twin Cities Compounding</span>
                                         </div>
 
                                         <div className="item">
                                             <i className="icofont-quote-left id-color fs-40 mb-4 wow fadeInUp"></i>
-                                            <h3 className="mb-4 wow fadeInUp fs-32">Rail Freight helped us move heavy shipments long distance in an eco-friendly way, while keeping costs low and schedules predictable.</h3>
-                                            <span className="wow fadeInUp">Plant Manager, SteelWorks</span>
+                                            <h3 className="mb-4 wow fadeInUp fs-32">Box Truck Boys moved our office furniture with white glove care. Not a single scratch. Highly recommend for sensitive deliveries.</h3>
+                                            <span className="wow fadeInUp">Office Manager, Edina Financial Group</span>
                                         </div>
 
                                         <div className="item">
                                             <i className="icofont-quote-left id-color fs-40 mb-4 wow fadeInUp"></i>
-                                            <h3 className="mb-4 wow fadeInUp fs-32">Warehousing gave us secure storage with seamless inventory management and nationwide distribution, allowing faster fulfillment to customers.</h3>
-                                            <span className="wow fadeInUp">E-commerce Director, ShopEase</span>
+                                            <h3 className="mb-4 wow fadeInUp fs-32">We use their scheduled route service for weekly restocking across five locations. Consistent, reliable, and the pricing is fair.</h3>
+                                            <span className="wow fadeInUp">Distribution Lead, Minnesota Pet Supply</span>
                                         </div>
 
                                         <div className="item">
                                             <i className="icofont-quote-left id-color fs-40 mb-4 wow fadeInUp"></i>
-                                            <h3 className="mb-4 wow fadeInUp fs-32">Customs Brokerage made import/export clearance smooth and hassle-free, guiding us through complex regulations with reliable expertise.</h3>
-                                            <span className="wow fadeInUp">CEO, ImportX</span>
+                                            <h3 className="mb-4 wow fadeInUp fs-32">When we needed an emergency hot shot delivery to Rochester, Box Truck Boys dispatched within 30 minutes. That is the kind of service you cannot find everywhere.</h3>
+                                            <span className="wow fadeInUp">Purchasing Director, Midwest Manufacturing</span>
                                         </div>
 
                                         <div className="item">
                                             <i className="icofont-quote-left id-color fs-40 mb-4 wow fadeInUp"></i>
-                                            <h3 className="mb-4 wow fadeInUp fs-32">Last-Mile service ensured fast and safe delivery directly to our customers’ doors, improving satisfaction with every completed order.</h3>
-                                            <span className="wow fadeInUp">Founder, FreshGrocer</span>
+                                            <h3 className="mb-4 wow fadeInUp fs-32">Their last-mile delivery service handles our e-commerce fulfillment flawlessly. Our customers get their orders on time and in perfect condition.</h3>
+                                            <span className="wow fadeInUp">Founder, Lakes &amp; Co. Home Goods</span>
                                         </div>
 
                                         <div className="item">
                                             <i className="icofont-quote-left id-color fs-40 mb-4 wow fadeInUp"></i>
-                                            <h3 className="mb-4 wow fadeInUp fs-32">Project Cargo Handling managed our oversized equipment shipment with precision and care, giving us confidence in meeting tight deadlines.</h3>
-                                            <span className="wow fadeInUp">Project Lead, BuildCorp</span>
+                                            <h3 className="mb-4 wow fadeInUp fs-32">Box Truck Boys has been our go-to for LTL freight across the metro. Professional drivers, fair rates, and they actually answer the phone.</h3>
+                                            <span className="wow fadeInUp">Logistics Coordinator, Twin Cities Beverage Co.</span>
                                         </div>
 
                                     </div>
@@ -184,10 +165,10 @@ export default function Page() {
                 <div className="container">
                     <div className="row g-4">
                         <div className="col-md-9">
-                            <h3 className="mb-0 fs-32 split">Ready to Ship Your Cargo Worldwide?</h3>
+                            <h3 className="mb-0 fs-32 split">Ready to Get Started?</h3>
                         </div>
                         <div className="col-lg-3 text-lg-end">
-                            <a className="btn-main fx-slide btn-line wow fadeInRight" data-wow-delay=".2s" href="/contact"><span>Book Shipment</span></a>
+                            <a className="btn-main fx-slide btn-line wow fadeInRight" data-wow-delay=".2s" href="tel:6122377374"><span>Call (612) 237-7374</span></a>
                         </div>
                     </div>
                 </div>

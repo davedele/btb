@@ -1,3 +1,10 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Delivery Services | Box Truck Boys Trucking Minneapolis",
+  description: "Medical courier, same-day delivery, last-mile, box truck freight, hot shot, white glove, and LTL shipping services in Minneapolis and the Twin Cities. Call (612) 237-7374.",
+};
+
 export default function Page() {
   return (
     <>
@@ -13,7 +20,7 @@ export default function Page() {
                             <ul className="crumb wow fadeInUp">
                                 <li><a href="/">Home</a></li>
                                 <li className="active">Our Services</li>
-                            </ul>   
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -25,68 +32,67 @@ export default function Page() {
                 <div className="container">
 
                     <div className="row g-4 gx-5">
-                        <div className="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay="0s">
-                            <a href="/services" className="d-block hover relative">
+                        <div id="medical-courier" className="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay="0s">
+                            <a href="/services/medical-courier" className="d-block hover relative">
                                 <img src="images/icons-color/1.png" className="w-70px mb-3 hover-jello infinite" alt="" />
-                                <h4>Trucking</h4>
-                                <p>Reliable ground transportation for shipments across the United States with flexible fleet options.</p>
+                                <h4>Medical Courier Service</h4>
+                                <p>Reliable transport of lab specimens, pharmaceuticals, durable medical equipment, blood work, and diagnostic materials between clinics, hospitals, laboratories, and pharmacies.</p>
                             </a>
                         </div>
 
-                        <div className="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay=".2s">
-                            <a href="/services" className="d-block hover relative">
+                        <div id="same-day" className="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay=".2s">
+                            <a href="/services/same-day" className="d-block hover relative">
                                 <img src="images/icons-color/2.png" className="w-70px mb-3 hover-jello infinite" alt="" />
-                                <h4>LTL Shipping</h4>
-                                <p>Fast delivery of time-sensitive cargo using global air routes with real-time tracking.</p>
+                                <h4>Same-Day Delivery</h4>
+                                <p>Urgent local pickup and delivery for businesses across the Twin Cities. We dispatch within the hour and deliver before end of business day.</p>
                             </a>
                         </div>
 
-                        <div className="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay=".4s">
-                            <a href="/services" className="d-block hover relative">
+                        <div id="last-mile" className="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay=".4s">
+                            <a href="/services/last-mile" className="d-block hover relative">
                                 <img src="images/icons-color/3.png" className="w-70px mb-3 hover-jello infinite" alt="" />
-                                <h4>Expedited Shipping</h4>
-                                <p>Cost-effective shipping solution for bulk cargo with dependable international sea freight services.</p>
-                            </a>
-                        </div>
-
-                        <div className="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay=".6s">
-                            <a href="/services" className="d-block hover relative">
-                                <img src="images/icons-color/4.png" className="w-70px mb-3 hover-jello infinite" alt="" />
-                                <h4>Rail Freight</h4>
-                                <p>Efficient and eco-friendly rail transport option ideal for long-distance heavy shipments.</p>
-                            </a>
-                        </div>
-
-                        {/*  New services  */}
-                        <div className="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay="0s">
-                            <a href="/services" className="d-block hover relative">
-                                <img src="images/icons-color/5.png" className="w-70px mb-3 hover-jello infinite" alt="" />
-                                <h4>Warehousing</h4>
-                                <p>Secure storage with inventory management, order fulfillment, and nationwide distribution.</p>
-                            </a>
-                        </div>
-
-                        <div className="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay=".2s">
-                            <a href="/services" className="d-block hover relative">
-                                <img src="images/icons-color/6.png" className="w-70px mb-3 hover-jello infinite" alt="" />
-                                <h4>Customs Brokerage</h4>
-                                <p>Expert assistance in navigating import/export regulations to ensure smooth customs clearance.</p>
-                            </a>
-                        </div>
-
-                        <div className="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay=".4s">
-                            <a href="/services" className="d-block hover relative">
-                                <img src="images/icons-color/7.png" className="w-70px mb-3 hover-jello infinite" alt="" />
                                 <h4>Last-Mile Delivery</h4>
-                                <p>Reliable end-to-end delivery service ensuring shipments reach customers’ doors quickly and safely.</p>
+                                <p>The final leg of your supply chain, handled with care. E-commerce fulfillment, retail restocking, and direct-to-door delivery throughout Minneapolis and Saint Paul.</p>
                             </a>
                         </div>
 
-                        <div className="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay=".6s">
-                            <a href="/services" className="d-block hover relative">
+                        <div id="scheduled-routes" className="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay=".6s">
+                            <a href="/services/scheduled-routes" className="d-block hover relative">
+                                <img src="images/icons-color/4.png" className="w-70px mb-3 hover-jello infinite" alt="" />
+                                <h4>Scheduled Route Delivery</h4>
+                                <p>Recurring daily or weekly delivery routes for hospitals, pharmacies, clinics, and businesses that need consistent, reliable pickup and drop-off service.</p>
+                            </a>
+                        </div>
+
+                        <div id="box-truck-freight" className="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay="0s">
+                            <a href="/services/box-truck-freight" className="d-block hover relative">
+                                <img src="images/icons-color/5.png" className="w-70px mb-3 hover-jello infinite" alt="" />
+                                <h4>Box Truck Freight</h4>
+                                <p>Palletized goods, large equipment, and multi-stop deliveries using our box truck fleet. Local and regional freight handled professionally and on schedule.</p>
+                            </a>
+                        </div>
+
+                        <div id="hot-shot" className="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay=".2s">
+                            <a href="/services/hot-shot" className="d-block hover relative">
+                                <img src="images/icons-color/6.png" className="w-70px mb-3 hover-jello infinite" alt="" />
+                                <h4>Hot Shot / Expedited</h4>
+                                <p>Time-critical shipments that cannot wait. Dedicated vehicle, direct route, no stops until your freight arrives at its destination.</p>
+                            </a>
+                        </div>
+
+                        <div id="white-glove" className="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay=".4s">
+                            <a href="/services/white-glove" className="d-block hover relative">
+                                <img src="images/icons-color/7.png" className="w-70px mb-3 hover-jello infinite" alt="" />
+                                <h4>White Glove Delivery</h4>
+                                <p>Inside delivery, unpacking, setup, and debris removal for sensitive equipment, furniture, and high-value items that need extra care.</p>
+                            </a>
+                        </div>
+
+                        <div id="ltl" className="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay=".6s">
+                            <a href="/services/ltl" className="d-block hover relative">
                                 <img src="images/icons-color/8.png" className="w-70px mb-3 hover-jello infinite" alt="" />
-                                <h4>Project Cargo</h4>
-                                <p>Specialized transport solutions for oversized, heavy, or complex cargo requiring tailored logistics planning.</p>
+                                <h4>LTL Shipping</h4>
+                                <p>Partial load shipping for businesses that do not need a full truck. Cost-effective freight solutions with reliable scheduling and careful handling.</p>
                             </a>
                         </div>
                     </div>
@@ -112,50 +118,50 @@ export default function Page() {
 
                                         <div className="item">
                                             <i className="icofont-quote-left id-color fs-40 mb-4 wow fadeInUp"></i>
-                                            <h3 className="mb-4 wow fadeInUp fs-32">Trucking service kept our supply chain moving smoothly with reliable nationwide coverage and flexible scheduling that minimized delays.</h3>
-                                            <span className="wow fadeInUp">Logistics Manager, RetailCo</span>
+                                            <h3 className="mb-4 wow fadeInUp fs-32">Box Truck Boys handles our daily lab specimen pickups with precision. They understand the urgency and never miss a window. Absolutely reliable.</h3>
+                                            <span className="wow fadeInUp">Lab Manager, Hennepin Healthcare</span>
                                         </div>
 
                                         <div className="item">
                                             <i className="icofont-quote-left id-color fs-40 mb-4 wow fadeInUp"></i>
-                                            <h3 className="mb-4 wow fadeInUp fs-32">LTL Shipping ensured our urgent shipments reached clients overseas right on time, providing peace of mind with accurate tracking updates.</h3>
-                                            <span className="wow fadeInUp">Operations Head, TechWorld</span>
+                                            <h3 className="mb-4 wow fadeInUp fs-32">We switched to Box Truck Boys for same-day delivery and have not looked back. Faster response times and better communication than our previous provider.</h3>
+                                            <span className="wow fadeInUp">Operations Manager, North Loop Retail</span>
                                         </div>
 
                                         <div className="item">
                                             <i className="icofont-quote-left id-color fs-40 mb-4 wow fadeInUp"></i>
-                                            <h3 className="mb-4 wow fadeInUp fs-32">Expedited Shipping provided a cost-effective solution for our large international cargo, handling every step with dependable coordination and care.</h3>
-                                            <span className="wow fadeInUp">Supply Officer, GlobalMart</span>
+                                            <h3 className="mb-4 wow fadeInUp fs-32">Their medical courier service keeps our pharmacy supplied without interruption. The drivers are professional and always on time.</h3>
+                                            <span className="wow fadeInUp">Head Pharmacist, Twin Cities Compounding</span>
                                         </div>
 
                                         <div className="item">
                                             <i className="icofont-quote-left id-color fs-40 mb-4 wow fadeInUp"></i>
-                                            <h3 className="mb-4 wow fadeInUp fs-32">Rail Freight helped us move heavy shipments long distance in an eco-friendly way, while keeping costs low and schedules predictable.</h3>
-                                            <span className="wow fadeInUp">Plant Manager, SteelWorks</span>
+                                            <h3 className="mb-4 wow fadeInUp fs-32">Box Truck Boys moved our office furniture with white glove care. Not a single scratch. Highly recommend for sensitive deliveries.</h3>
+                                            <span className="wow fadeInUp">Office Manager, Edina Financial Group</span>
                                         </div>
 
                                         <div className="item">
                                             <i className="icofont-quote-left id-color fs-40 mb-4 wow fadeInUp"></i>
-                                            <h3 className="mb-4 wow fadeInUp fs-32">Warehousing gave us secure storage with seamless inventory management and nationwide distribution, allowing faster fulfillment to customers.</h3>
-                                            <span className="wow fadeInUp">E-commerce Director, ShopEase</span>
+                                            <h3 className="mb-4 wow fadeInUp fs-32">We use their scheduled route service for weekly restocking across five locations. Consistent, reliable, and the pricing is fair.</h3>
+                                            <span className="wow fadeInUp">Distribution Lead, Minnesota Pet Supply</span>
                                         </div>
 
                                         <div className="item">
                                             <i className="icofont-quote-left id-color fs-40 mb-4 wow fadeInUp"></i>
-                                            <h3 className="mb-4 wow fadeInUp fs-32">Customs Brokerage made import/export clearance smooth and hassle-free, guiding us through complex regulations with reliable expertise.</h3>
-                                            <span className="wow fadeInUp">CEO, ImportX</span>
+                                            <h3 className="mb-4 wow fadeInUp fs-32">When we needed an emergency hot shot delivery to Rochester, Box Truck Boys dispatched within 30 minutes. That is the kind of service you cannot find everywhere.</h3>
+                                            <span className="wow fadeInUp">Purchasing Director, Midwest Manufacturing</span>
                                         </div>
 
                                         <div className="item">
                                             <i className="icofont-quote-left id-color fs-40 mb-4 wow fadeInUp"></i>
-                                            <h3 className="mb-4 wow fadeInUp fs-32">Last-Mile service ensured fast and safe delivery directly to our customers’ doors, improving satisfaction with every completed order.</h3>
-                                            <span className="wow fadeInUp">Founder, FreshGrocer</span>
+                                            <h3 className="mb-4 wow fadeInUp fs-32">Their last-mile delivery service handles our e-commerce fulfillment flawlessly. Our customers get their orders on time and in perfect condition.</h3>
+                                            <span className="wow fadeInUp">Founder, Lakes &amp; Co. Home Goods</span>
                                         </div>
 
                                         <div className="item">
                                             <i className="icofont-quote-left id-color fs-40 mb-4 wow fadeInUp"></i>
-                                            <h3 className="mb-4 wow fadeInUp fs-32">Project Cargo Handling managed our oversized equipment shipment with precision and care, giving us confidence in meeting tight deadlines.</h3>
-                                            <span className="wow fadeInUp">Project Lead, BuildCorp</span>
+                                            <h3 className="mb-4 wow fadeInUp fs-32">Box Truck Boys has been our go-to for LTL freight across the metro. Professional drivers, fair rates, and they actually answer the phone.</h3>
+                                            <span className="wow fadeInUp">Logistics Coordinator, Twin Cities Beverage Co.</span>
                                         </div>
 
                                     </div>
@@ -173,10 +179,10 @@ export default function Page() {
                 <div className="container">
                     <div className="row g-4">
                         <div className="col-md-9">
-                            <h3 className="mb-0 fs-32 split">Ready to Ship Your Cargo Worldwide?</h3>
+                            <h3 className="mb-0 fs-32 split">Ready to Get Started?</h3>
                         </div>
                         <div className="col-lg-3 text-lg-end">
-                            <a className="btn-main fx-slide btn-line wow fadeInRight" data-wow-delay=".2s" href="/contact"><span>Book Shipment</span></a>
+                            <a className="btn-main fx-slide btn-line wow fadeInRight" data-wow-delay=".2s" href="/contact"><span>Get a Quote</span></a>
                         </div>
                     </div>
                 </div>

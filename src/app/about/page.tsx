@@ -1,3 +1,10 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Box Truck Boys Trucking | Minneapolis Delivery Service",
+  description: "Box Truck Boys is a locally owned Minneapolis delivery company specializing in medical courier, same-day delivery, and box truck freight services. USDOT 3823948.",
+};
+
 export default function Page() {
   return (
     <>
@@ -13,7 +20,7 @@ export default function Page() {
                             <ul className="crumb wow fadeInUp">
                                 <li><a href="/">Home</a></li>
                                 <li className="active">About Us</li>
-                            </ul>   
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -35,12 +42,9 @@ export default function Page() {
                         <div className="col-lg-6">
                             <div className="ps-lg-3">
                                 <div className="subtitle id-color wow fadeInUp" data-wow-delay=".2s">About Us</div>
-                                <h2 className="split">Moving Cargo, Connecting the World</h2>
+                                <h2 className="split">Minneapolis Delivery Service Built on Reliability</h2>
                                 <p className="mb-0 wow fadeInUp" data-wow-delay=".6s">
-                                    We are a trusted logistics and cargo solutions provider committed to delivering your goods safely, efficiently, and on time. 
-                                    With years of experience in freight forwarding, warehousing, and international shipping, we combine expertise and innovation 
-                                    to keep your supply chain moving. From small parcels to large-scale cargo, our mission is simple — reliable delivery 
-                                    that helps your business grow across borders.
+                                    Box Truck Boys is a locally owned and operated delivery company based in Minneapolis, Minnesota. We specialize in medical courier service, same-day delivery, and box truck freight for businesses across the Twin Cities and beyond. Founded with a simple mission — show up on time, handle every package with care, and treat every client like our only client — we have built a reputation for reliability that Minneapolis businesses count on every day.
                                 </p>
                             </div>
                         </div>
@@ -49,11 +53,11 @@ export default function Page() {
 
                         <div className="row g-4">
                             <div className="col-lg-12">
-                                <h2 className="split mb-0">Our Expertise</h2>                    
+                                <h2 className="split mb-0">Our Expertise</h2>
                             </div>
                             <div className="col-lg-6">
                                 <div className="skill-bar style-2">
-                                    <h5>Freight Forwarding</h5>
+                                    <h5>Medical Courier Delivery</h5>
                                     <div className="de-progress">
                                         <div className="value"></div>
                                         <div className="progress-bar" data-value="95%">
@@ -62,19 +66,19 @@ export default function Page() {
                                 </div>
 
                                 <div className="skill-bar style-2">
-                                    <h5>Customs Clearance</h5>
+                                    <h5>Same-Day & Expedited</h5>
                                     <div className="de-progress">
                                         <div className="value"></div>
-                                        <div className="progress-bar" data-value="90%">
+                                        <div className="progress-bar" data-value="92%">
                                         </div>
                                     </div>
                                 </div>
 
                                 <div className="skill-bar style-2">
-                                    <h5>Warehousing & Distribution</h5>
+                                    <h5>Last-Mile & Route Delivery</h5>
                                     <div className="de-progress">
                                         <div className="value"></div>
-                                        <div className="progress-bar" data-value="85%">
+                                        <div className="progress-bar" data-value="88%">
                                         </div>
                                     </div>
                                 </div>
@@ -85,26 +89,26 @@ export default function Page() {
                                 <div className="row g-4">
                                     <div className="col-md-6 text-center">
                                         <div className="de_count wow fadeInRight" data-wow-delay=".0s">
-                                            <h3 className="fs-40 mb-0"><span className="timer" data-to="65250" data-speed="3000">0</span>+</h3>
-                                            Shipments Delivered
+                                            <h3 className="fs-40 mb-0"><span className="timer" data-to="2800" data-speed="3000">0</span>+</h3>
+                                            Deliveries Completed
                                         </div>
                                     </div>
                                     <div className="col-md-6 text-center">
                                         <div className="de_count wow fadeInRight" data-wow-delay=".2s">
-                                            <h3 className="fs-40 mb-0"><span className="timer" data-to="23160" data-speed="3000">0</span>+</h3>
-                                            Satisfied Clients
+                                            <h3 className="fs-40 mb-0"><span className="timer" data-to="85" data-speed="3000">0</span>+</h3>
+                                            Business Clients
                                         </div>
                                     </div>
                                     <div className="col-md-6 text-center">
                                         <div className="de_count wow fadeInRight" data-wow-delay=".4s">
-                                            <h3 className="fs-40 mb-0"><span className="timer" data-to="150" data-speed="3000">0</span>+</h3>
-                                            Dedicated Team Members
+                                            <h3 className="fs-40 mb-0"><span className="timer" data-to="0" data-speed="3000">0</span></h3>
+                                            Crashes on Record
                                         </div>
                                     </div>
                                     <div className="col-md-6 text-center">
                                         <div className="de_count wow fadeInRight" data-wow-delay=".6s">
-                                            <h3 className="fs-40 mb-0"><span className="timer" data-to="20" data-speed="3000">0</span>+</h3>
-                                            Years of Experience
+                                            <h3 className="fs-40 mb-0"><span className="timer" data-to="3" data-speed="3000">0</span>+</h3>
+                                            Years Serving Minneapolis
                                         </div>
                                     </div>
                                 </div>
@@ -112,7 +116,7 @@ export default function Page() {
                         </div>
 
                     </div>
-                        
+
                 </div>
             </section>
 
@@ -123,8 +127,8 @@ export default function Page() {
                             <div className="relative">
                                 <div className="abs bottom-0 end-0 m-5">
                                     <div className="p-4 mb-4 bg-color text-light rounded-1 text-center wow fadeInUp" data-wow-delay=".0s">
-                                        <h1 className="fs-84 mb-1">15</h1>
-                                        <div className="fs-16 lh-1-5">Years of Excellence</div>
+                                        <h1 className="fs-84 mb-1">3</h1>
+                                        <div className="fs-16 lh-1-5">Years in Minneapolis</div>
                                     </div>
                                 </div>
                                 <img src="images/misc/s3.webp" className="w-100 rounded-1" alt="" />
@@ -135,7 +139,7 @@ export default function Page() {
                             <div className="h-100 relative">
 
                                 <div className="subtitle id-color wow fadeInUp" data-wow-delay=".2s">Your Trusted Shipping Partner</div>
-                                <h1 className="split" data-wow-delay=".4s">Expert Expedited Shipping Services, Deliver Worldwide with Ease</h1>
+                                <h1 className="split" data-wow-delay=".4s">Your Local Delivery Partner for Medical, Business, and Freight</h1>
 
                                 <div className="abs ol-lg-12 pos-sm-relative bottom-0">
                                     <div className="d-flex align-items-center justify-content-between border-bottom pb-4 mb-4 c wow fadeInUp" data-wow-delay=".9s">
@@ -147,10 +151,10 @@ export default function Page() {
                                                 <img src="images/testimonial/3.webp" className="w-50px circle ms-min-10" alt="" />
                                             </div>
 
-                                            <div className="fw-600 fs-14 lh-1-5"><span className="fs-16 fw-bold text-dark">23k</span><br />successful shipments</div>
-                                        </div>                                
+                                            <div className="fw-600 fs-14 lh-1-5"><span className="fs-16 fw-bold text-dark">2,800+</span><br />successful deliveries</div>
+                                        </div>
                                     </div>
-                                    <p>We specialize in global ocean freight solutions, offering full container load, less than container load, and bulk cargo shipping. With our trusted carrier network and years of expertise, we guarantee smooth operations, reliable schedules, and cost-effective delivery for businesses of all sizes.</p>
+                                    <p>We specialize in medical courier service, same-day delivery, and reliable freight solutions for Minneapolis businesses. With our fleet of box trucks and sprinter vans, trained drivers, and commitment to on-time performance, we handle everything from urgent lab specimen pickups to scheduled multi-stop routes. Our clients trust us because we deliver — safely, professionally, and on schedule, every single time.</p>
 
                                 </div>
                             </div>
@@ -163,10 +167,10 @@ export default function Page() {
                 <div className="container">
                     <div className="row g-4">
                         <div className="col-md-9">
-                            <h3 className="mb-0 fs-32 split">Ready to Ship Your Cargo Worldwide?</h3>
+                            <h3 className="mb-0 fs-32 split">Ready to Get Started?</h3>
                         </div>
                         <div className="col-lg-3 text-lg-end">
-                            <a className="btn-main fx-slide btn-line wow fadeInRight" data-wow-delay=".2s" href="/contact"><span>Book Shipment</span></a>
+                            <a className="btn-main fx-slide btn-line wow fadeInRight" data-wow-delay=".2s" href="/contact"><span>Get a Quote</span></a>
                         </div>
                     </div>
                 </div>

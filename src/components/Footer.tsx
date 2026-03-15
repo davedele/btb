@@ -14,10 +14,12 @@ export default function Footer() {
                   <div className="widget">
                     <h5>Services</h5>
                     <ul>
-                      <li><Link href="/services">Truck Freight</Link></li>
-                      <li><Link href="/services">Dedicated Freight</Link></li>
-                      <li><Link href="/services">LTL Shipping</Link></li>
-                      <li><Link href="/services">Expedited Shipping</Link></li>
+                      <li><Link href="/services/medical-courier">Medical Courier</Link></li>
+                      <li><Link href="/services/same-day">Same-Day Delivery</Link></li>
+                      <li><Link href="/services/last-mile">Last-Mile Delivery</Link></li>
+                      <li><Link href="/services/box-truck-freight">Box Truck Freight</Link></li>
+                      <li><Link href="/services/hot-shot">Hot Shot / Expedited</Link></li>
+                      <li><Link href="/services/ltl">LTL Shipping</Link></li>
                     </ul>
                   </div>
                 </div>
@@ -54,11 +56,11 @@ export default function Footer() {
                 <div className="spacer-20"></div>
 
                 <div className="op-5 fs-15">Office Locations</div>
-                <h3>7734 Nebraska Ave, Omaha NE 68134</h3>
-                <h3 className="mt-2">3327 N Washburn Ave, Minneapolis MN 55412</h3>
+                <h3>3327 N Washburn Ave, Minneapolis MN 55412</h3>
+                <h3 className="mt-2">7734 Nebraska Ave, Omaha NE 68134</h3>
 
                 <div className="spacer-20"></div>
-          
+
               </div>
             </div>
           </div>
@@ -69,7 +71,7 @@ export default function Footer() {
               <div className="col-md-12 text-center">
                 Copyright {new Date().getFullYear()} Box Truck Boys Trucking
                 <br />
-                <span style={{ fontSize: '0.8em', opacity: 0.7 }}>US DOT: 3823948 | MC: 01384682</span>
+                <span style={{ fontSize: '0.8em', opacity: 0.7 }}>US DOT: 3823948 | MC: MC-1384682</span>
               </div>
             </div>
           </div>
@@ -90,22 +92,27 @@ export default function Footer() {
 
           <h5>Our Services</h5>
           <ul className="ul-check">
-            <li>Truck Freight</li>
-            <li>Dedicated Freight</li>
+            <li>Medical Courier Service</li>
+            <li>Same-Day Delivery</li>
+            <li>Last-Mile Delivery</li>
+            <li>Scheduled Route Delivery</li>
+            <li>Box Truck Freight</li>
+            <li>Hot Shot / Expedited</li>
+            <li>White Glove Delivery</li>
             <li>LTL Shipping</li>
-            <li>Expedited Shipping</li>
           </ul>
 
           <div className="spacer-30-line"></div>
 
           <h5>Contact Us</h5>
           <div><i className="icofont-phone me-2 op-5"></i>(612) 237-7374</div>
-          <div><i className="icofont-location-pin me-2 op-5"></i>7734 Nebraska Ave, Omaha NE</div>
+          <div><i className="icofont-envelope me-2 op-5"></i>contact@boxtruckboys.com</div>
+          <div><i className="icofont-location-pin me-2 op-5"></i>3327 N Washburn Ave, Minneapolis MN 55412</div>
 
           <div className="spacer-30-line"></div>
 
           <h5>About Us</h5>
-          <p>We are a trusted ground transportation and trucking company committed to delivering your freight safely, efficiently, and on time across the United States.</p>
+          <p>Box Truck Boys is a locally owned Minneapolis delivery company specializing in medical courier, same-day delivery, and box truck freight services throughout the Twin Cities.</p>
 
         </div>
       </div>

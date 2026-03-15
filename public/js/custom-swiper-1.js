@@ -31,4 +31,13 @@ const swiper = new Swiper('.swiper', {
     el: false,
     clickable: false,
   },
+  on: {
+    slideChange: function () {
+      const activeSlide = this.slides[this.activeIndex];
+      const video = activeSlide.querySelector('video');
+      if (video) {
+        video.play().catch(e => console.log(e));
+      }
+    }
+  }
 });
