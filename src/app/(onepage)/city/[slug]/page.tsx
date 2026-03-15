@@ -105,7 +105,7 @@ export default async function CityPage({ params }: PageProps) {
         </section>
 
         {/* Description Section */}
-        <section>
+        <section id="section-about">
           <div className="container">
             <div className="row g-4 align-items-center">
               <div className="col-lg-6">
@@ -145,7 +145,7 @@ export default async function CityPage({ params }: PageProps) {
         </section>
 
         {/* Services Section */}
-        <section>
+        <section id="section-services">
           <div className="container">
             <div className="row g-4 justify-content-center">
               <div className="col-lg-7 text-center">
@@ -179,7 +179,7 @@ export default async function CityPage({ params }: PageProps) {
         </section>
 
         {/* Why Choose Us Section */}
-        <section>
+        <section id="section-why-choose-us">
           <div className="container">
             <div className="row g-4 justify-content-center">
               <div className="col-lg-7 text-center">
@@ -273,7 +273,7 @@ export default async function CityPage({ params }: PageProps) {
         </section>
 
         {/* FAQ Section */}
-        <section className="pt-0">
+        <section id="section-faq" className="pt-0">
           <div className="container">
             <div className="row g-4">
               <div className="col-lg-6">

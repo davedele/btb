@@ -6,8 +6,8 @@ export default function Page() {
             <div id="top"></div>
 
             <section className="text-light no-top no-bottom relative rounded-1 overflow-hidden m-3 sm-mt-90">
-                <div className="mh-800">
-                    <div className="swiper">
+                <div className="mh-740" style={{ minHeight: '740px' }}>
+                    <div className="swiper" style={{ minHeight: '740px' }}>
                       {/*  Additional required wrapper  */}
                       <div className="swiper-wrapper">
 
@@ -22,7 +22,7 @@ export default function Page() {
                                         <div className="row gx-5 align-items-center justify-content-between">
                                             <div className="col-lg-6">
                                                 <div className="sw-text-wrapper">
-                                                    <h1 className="animated text-uppercase anim-order-1">Minneapolis Medical Courier and Delivery Service</h1>
+                                                    <h1 className="animated text-uppercase anim-order-1" style={{ fontSize: '3.5rem', lineHeight: '1.1' }}>Minneapolis Medical Courier and Delivery Service</h1>
 
                                                     <div className="animated anim-order-2">
                                                         <p>Box Truck Boys provides medical courier, same-day delivery, and box truck freight services throughout the Twin Cities and beyond. Our fleet of box trucks and sprinter vans is ready to move your cargo safely, on time, every time.</p>
@@ -77,7 +77,7 @@ export default function Page() {
                                         <div className="row gx-5 align-items-center justify-content-between">
                                             <div className="col-lg-6">
                                                 <div className="sw-text-wrapper">
-                                                    <h1 className="animated text-uppercase anim-order-1">Box Truck and Sprinter Van Delivery You Can Count On</h1>
+                                                    <h1 className="animated text-uppercase anim-order-1" style={{ fontSize: '3.5rem', lineHeight: '1.1' }}>Box Truck and Sprinter Van Delivery You Can Count On</h1>
 
                                                     <div className="animated anim-order-2">
                                                         <p>From palletized freight to time-sensitive medical specimens, our fleet handles deliveries of every size across Minneapolis, Saint Paul, and the greater Minnesota region. Reliable, professional, and always on schedule.</p>

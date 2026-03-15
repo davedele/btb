@@ -107,7 +107,7 @@ export default async function LandingPage({ params }: PageProps) {
         </section>
 
         {/* Description Section */}
-        <section>
+        <section id="section-about">
           <div className="container">
             <div className="row g-4 align-items-center">
               <div className="col-lg-6">
@@ -145,7 +145,7 @@ export default async function LandingPage({ params }: PageProps) {
         </section>
 
         {/* Benefits Section */}
-        <section>
+        <section id="section-why-choose-us">
           <div className="container">
             <div className="row g-4 justify-content-center">
               <div className="col-lg-7 text-center">
@@ -204,7 +204,7 @@ export default async function LandingPage({ params }: PageProps) {
         </section>
 
         {/* FAQ Section */}
-        <section>
+        <section id="section-faq">
           <div className="container">
             <div className="row g-4">
               <div className="col-lg-6">

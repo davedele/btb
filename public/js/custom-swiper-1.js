@@ -1,9 +1,9 @@
 const swiper = new Swiper('.swiper', {
   autoplay: {
-    delay: 4000,
+    delay: 8000,
     disableOnInteraction: false
   },
-  loop: true,
+  rewind: true,
   spaceBetween: 0,
   effect: "creative",
   speed: 1500, // transition speed

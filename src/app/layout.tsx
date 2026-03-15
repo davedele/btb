@@ -1,8 +1,6 @@
 import Script from "next/script";
 import type { Metadata } from "next";
 
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 import TemplateReinit from "@/components/TemplateReinit";
 
 export const metadata: Metadata = {
@@ -130,9 +128,7 @@ export default function RootLayout({
         <div id="wrapper">
           <a href="#" id="back-to-top"></a>
 
-          <Header />
           {children}
-          <Footer />
 
         </div>
 
