@@ -66,7 +66,7 @@ export default function Page() {
                                 </div>
 
                                 <div className="skill-bar style-2">
-                                    <h5>Same-Day & Expedited</h5>
+                                    <h5>Same-Day Delivery</h5>
                                     <div className="de-progress">
                                         <div className="value"></div>
                                         <div className="progress-bar" data-value="92%">
@@ -75,7 +75,7 @@ export default function Page() {
                                 </div>
 
                                 <div className="skill-bar style-2">
-                                    <h5>Last-Mile & Route Delivery</h5>
+                                    <h5>Final-Mile & Route Delivery</h5>
                                     <div className="de-progress">
                                         <div className="value"></div>
                                         <div className="progress-bar" data-value="88%">

@@ -89,10 +89,9 @@ export default function ContactForm() {
                 <option value="">Select a Service</option>
                 <option value="Medical Courier">Medical Courier</option>
                 <option value="Same-Day Delivery">Same-Day Delivery</option>
-                <option value="Last-Mile Delivery">Last-Mile Delivery</option>
+                <option value="Final-Mile Delivery">Final-Mile Delivery</option>
                 <option value="Scheduled Route Delivery">Scheduled Route Delivery</option>
                 <option value="Box Truck Freight">Box Truck Freight</option>
-                <option value="Hot Shot / Expedited">Hot Shot / Expedited</option>
                 <option value="White Glove Delivery">White Glove Delivery</option>
                 <option value="LTL Shipping">LTL Shipping</option>
                 <option value="Other">Other</option>

@@ -219,7 +219,7 @@ export default function Page() {
                         <div className="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay=".4s">
                             <a href="/services" className="d-block hover relative">
                                 <img src="images/icons-color/3.png" className="w-70px mb-3 hover-jello infinite" alt="" />
-                                <h4>Last-Mile Delivery</h4>
+                                <h4>Final-Mile Delivery</h4>
                                 <p>The final leg of your supply chain, handled with care. E-commerce fulfillment, retail restocking, and direct-to-door delivery.</p>
                             </a>
                         </div>
@@ -227,8 +227,8 @@ export default function Page() {
                         <div className="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay=".6s">
                             <a href="/services" className="d-block hover relative">
                                 <img src="images/icons-color/4.png" className="w-70px mb-3 hover-jello infinite" alt="" />
-                                <h4>Hot Shot / Expedited</h4>
-                                <p>Time-critical shipments that cannot wait. Dedicated vehicle, direct route, no stops until your freight arrives.</p>
+                                <h4>Box Truck Freight</h4>
+                                <p>Palletized goods, large equipment, and multi-stop deliveries using our box truck fleet. Local and regional freight handled professionally.</p>
                             </a>
                         </div>
 
@@ -301,7 +301,7 @@ export default function Page() {
                                 </div>
 
                                 <div className="bg-light relative overflow-hidden rounded-1">
-                                    <img src="images/misc/s4.webp" className="w-100 wow scaleIn" data-wow-duration="2s" alt="" />
+                                    <img src="images/misc/s12.webp" className="w-100 wow scaleIn" data-wow-duration="2s" alt="" />
                                 </div>
 
                             </div>
@@ -430,7 +430,7 @@ export default function Page() {
                                         <a href="/about">
                                             <div className="hover rounded-1 relative overflow-hidden text-light">
                                                 <div className="abs p-40 bottom-0 z-3 w-50">
-                                                    <h3>Last-Mile to Your Door</h3>
+                                                    <h3>Final-Mile to Your Door</h3>
                                                     <p className="mb-0 hover-mh-60">Read More</p>
                                                 </div>
                                                 <img src="images/misc/l3.webp" className="w-100 hover-scale-1-2" alt="" />
@@ -474,7 +474,7 @@ export default function Page() {
                                                     What delivery services does Box Truck Boys offer?
                                                 </div>
                                                 <div className="accordion-section-content" id="accordion-a1">
-                                                    We offer medical courier, same-day delivery, last-mile delivery, scheduled route delivery, box truck freight, hot shot and expedited, white glove delivery, and LTL shipping throughout Minneapolis, the Twin Cities, and beyond.
+                                                    We offer medical courier, same-day delivery, final-mile delivery, scheduled route delivery, box truck freight, white glove delivery, and LTL shipping throughout Minneapolis, the Twin Cities, and beyond.
                                                 </div>
 
                                                 <div className="accordion-section-title" data-tab="#accordion-a2">
@@ -502,7 +502,7 @@ export default function Page() {
                                                     How fast can you deliver?
                                                 </div>
                                                 <div className="accordion-section-content" id="accordion-a5">
-                                                    For same-day and hot shot deliveries, we dispatch within the hour. Scheduled routes run daily or weekly. Standard local deliveries are typically completed within the same business day.
+                                                    For same-day deliveries, we dispatch within the hour. Scheduled routes run daily or weekly. Standard local deliveries are typically completed within the same business day.
                                                 </div>
                                             </div>
                                         </div>

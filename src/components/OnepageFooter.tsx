@@ -15,9 +15,8 @@ export default function OnepageFooter() {
                       <li><a href="#section-services">Our Services</a></li>
                       <li><a href="https://boxtruckboys.com/services/medical-courier">Medical Courier</a></li>
                       <li><a href="https://boxtruckboys.com/services/same-day">Same-Day Delivery</a></li>
-                      <li><a href="https://boxtruckboys.com/services/last-mile">Last-Mile Delivery</a></li>
+                      <li><a href="https://boxtruckboys.com/services/last-mile">Final-Mile Delivery</a></li>
                       <li><a href="https://boxtruckboys.com/services/box-truck-freight">Box Truck Freight</a></li>
-                      <li><a href="https://boxtruckboys.com/services/hot-shot">Hot Shot / Expedited</a></li>
                     </ul>
                   </div>
                 </div>
@@ -92,10 +91,9 @@ export default function OnepageFooter() {
           <ul className="ul-check">
             <li>Medical Courier Service</li>
             <li>Same-Day Delivery</li>
-            <li>Last-Mile Delivery</li>
+            <li>Final-Mile Delivery</li>
             <li>Scheduled Route Delivery</li>
             <li>Box Truck Freight</li>
-            <li>Hot Shot / Expedited</li>
             <li>White Glove Delivery</li>
             <li>LTL Shipping</li>
           </ul>

@@ -96,13 +96,13 @@ export const serviceDetails: Record<string, ServiceDetail> = {
       "Same-day delivery service in Minneapolis and the Twin Cities. Dispatch within the hour. Box truck and sprinter van delivery. Call (612) 237-7374.",
   },
   "last-mile": {
-    name: "Last-Mile Delivery",
+    name: "Final-Mile Delivery",
     slug: "last-mile",
-    headline: "Last-Mile Delivery for E-Commerce and Retail",
+    headline: "Final-Mile Delivery for E-Commerce and Retail",
     description:
-      "The last mile is where your customer experience is made or broken. Box Truck Boys handles the final leg of your supply chain with the care and professionalism that your brand reputation depends on. From e-commerce fulfillment to retail restocking and direct-to-door delivery, our last-mile service ensures your products arrive on time, in perfect condition, and with a positive delivery experience. We partner with online retailers, distribution centers, and local businesses throughout Minneapolis and Saint Paul to handle their last-mile logistics.",
+      "The final mile is where your customer experience is made or broken. Box Truck Boys handles the final leg of your supply chain with the care and professionalism that your brand reputation depends on. From e-commerce fulfillment to retail restocking and direct-to-door delivery, our final-mile service ensures your products arrive on time, in perfect condition, and with a positive delivery experience. We partner with online retailers, distribution centers, and local businesses throughout Minneapolis and Saint Paul to handle their final-mile logistics.",
     callout:
-      "Professional last-mile delivery that protects your brand and delights your customers with on-time, careful handling.",
+      "Professional final-mile delivery that protects your brand and delights your customers with on-time, careful handling.",
     features: [
       {
         title: "E-Commerce Fulfillment",
@@ -127,7 +127,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
       {
         title: "Multi-Stop Routes",
         description:
-          "Efficient route planning for high-volume last-mile delivery. We optimize stops to maximize deliveries per route while maintaining on-time performance.",
+          "Efficient route planning for high-volume final-mile delivery. We optimize stops to maximize deliveries per route while maintaining on-time performance.",
       },
       {
         title: "Returns & Reverse Logistics",
@@ -136,7 +136,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
       },
     ],
     metaDescription:
-      "Last-mile delivery service in Minneapolis. E-commerce fulfillment, retail restocking, and direct-to-door delivery. Call (612) 237-7374.",
+      "Final-mile delivery service in Minneapolis. E-commerce fulfillment, retail restocking, and direct-to-door delivery. Call (612) 237-7374.",
   },
   "scheduled-routes": {
     name: "Scheduled Route Delivery",
@@ -223,49 +223,6 @@ export const serviceDetails: Record<string, ServiceDetail> = {
     ],
     metaDescription:
       "Box truck freight service in Minneapolis. Palletized goods, equipment delivery, and commercial freight. Lift gate available. Call (612) 237-7374.",
-  },
-  "hot-shot": {
-    name: "Hot Shot / Expedited",
-    slug: "hot-shot",
-    headline: "Hot Shot and Expedited Delivery When Time is Critical",
-    description:
-      "When it absolutely has to be there now, Box Truck Boys hot shot service delivers. We dedicate a vehicle and driver exclusively to your shipment — no other stops, no sharing, direct route from pickup to delivery. Hot shot service is for time-critical freight that cannot afford delays: emergency parts, production-line materials, medical supplies, legal documents, and anything else that needs to move immediately. We dispatch within minutes and drive straight to your destination.",
-    callout:
-      "Dedicated vehicle. Direct route. No stops. Your time-critical freight gets there as fast as physically possible.",
-    features: [
-      {
-        title: "Dedicated Vehicle",
-        description:
-          "Your shipment gets its own vehicle — box truck or sprinter van depending on size. No shared loads, no detours, no delays from other deliveries.",
-      },
-      {
-        title: "Immediate Dispatch",
-        description:
-          "Call us and we are on the road. Hot shot requests get immediate priority dispatch, typically within 15 to 30 minutes.",
-      },
-      {
-        title: "Direct Route",
-        description:
-          "Straight from pickup to delivery. No stops, no transfers, no warehousing. The fastest path between two points is a dedicated Box Truck Boys vehicle.",
-      },
-      {
-        title: "Long Distance Available",
-        description:
-          "Hot shot service is not limited to the metro. We run expedited deliveries across Minnesota, to neighboring states, and beyond when the situation demands it.",
-      },
-      {
-        title: "24/7 Availability",
-        description:
-          "Emergencies do not wait for business hours. Contact us for after-hours hot shot availability when your freight cannot wait until morning.",
-      },
-      {
-        title: "Real-Time Tracking",
-        description:
-          "Know exactly where your hot shot delivery is at every moment. We provide live updates from dispatch through delivery confirmation.",
-      },
-    ],
-    metaDescription:
-      "Hot shot and expedited delivery in Minneapolis. Dedicated vehicle, direct route, immediate dispatch. Call (612) 237-7374.",
   },
   "white-glove": {
     name: "White Glove Delivery",

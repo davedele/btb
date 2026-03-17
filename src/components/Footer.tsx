@@ -16,9 +16,8 @@ export default function Footer() {
                     <ul>
                       <li><Link href="/services/medical-courier">Medical Courier</Link></li>
                       <li><Link href="/services/same-day">Same-Day Delivery</Link></li>
-                      <li><Link href="/services/last-mile">Last-Mile Delivery</Link></li>
+                      <li><Link href="/services/last-mile">Final-Mile Delivery</Link></li>
                       <li><Link href="/services/box-truck-freight">Box Truck Freight</Link></li>
-                      <li><Link href="/services/hot-shot">Hot Shot / Expedited</Link></li>
                       <li><Link href="/services/ltl">LTL Shipping</Link></li>
                     </ul>
                   </div>
@@ -94,10 +93,9 @@ export default function Footer() {
           <ul className="ul-check">
             <li>Medical Courier Service</li>
             <li>Same-Day Delivery</li>
-            <li>Last-Mile Delivery</li>
+            <li>Final-Mile Delivery</li>
             <li>Scheduled Route Delivery</li>
             <li>Box Truck Freight</li>
-            <li>Hot Shot / Expedited</li>
             <li>White Glove Delivery</li>
             <li>LTL Shipping</li>
           </ul>

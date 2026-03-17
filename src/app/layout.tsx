@@ -9,15 +9,14 @@ export const metadata: Metadata = {
     template: "%s | Box Truck Boys Trucking",
   },
   description:
-    "Box Truck Boys Trucking provides medical courier, same-day delivery, last-mile delivery, and box truck freight services in Minneapolis, Saint Paul, and the Twin Cities metro. Call (612) 237-7374.",
+    "Box Truck Boys Trucking provides medical courier, same-day delivery, final-mile delivery, and box truck freight services in Minneapolis, Saint Paul, and the Twin Cities metro. Call (612) 237-7374.",
   keywords: [
     "medical courier Minneapolis",
     "same-day delivery Minneapolis",
     "box truck delivery Twin Cities",
-    "last-mile delivery Minnesota",
+    "final-mile delivery Minnesota",
     "medical delivery service",
     "freight delivery Minneapolis",
-    "hot shot delivery Twin Cities",
     "LTL shipping Minneapolis",
     "sprinter van delivery",
     "courier service Saint Paul",
@@ -45,7 +44,7 @@ const jsonLd = {
   "@type": "LocalBusiness",
   name: "Box Truck Boys Trucking",
   description:
-    "Medical courier, same-day delivery, last-mile delivery, and box truck freight services in Minneapolis and the Twin Cities.",
+    "Medical courier, same-day delivery, final-mile delivery, and box truck freight services in Minneapolis and the Twin Cities.",
   url: "https://boxtruckboys.com",
   telephone: "(612) 237-7374",
   email: "Boxtruckboystrucking@gmail.com",
@@ -75,10 +74,9 @@ const jsonLd = {
   serviceType: [
     "Medical Courier Service",
     "Same-Day Delivery",
-    "Last-Mile Delivery",
+    "Final-Mile Delivery",
     "Scheduled Route Delivery",
     "Box Truck Freight",
-    "Hot Shot / Expedited",
     "White Glove Delivery",
     "LTL Shipping",
   ],

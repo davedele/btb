@@ -31,7 +31,7 @@ Minneapolis businesses choose Box Truck Boys because we combine local knowledge 
 
 Our medical courier division has become one of the fastest-growing segments of our Minneapolis operation. Hospitals, clinics, and laboratories across Minneapolis rely on us for STAT specimen transport, pharmaceutical delivery, and durable medical equipment logistics. We maintain strict chain-of-custody protocols and temperature-controlled transport options that meet the compliance requirements of Minneapolis healthcare providers. From Hennepin Healthcare to the VA Medical Center, Minneapolis medical professionals trust Box Truck Boys to deliver critical materials safely and on schedule.
 
-Beyond medical courier services, our Minneapolis team handles same-day delivery, last-mile fulfillment, box truck freight, and recurring scheduled routes. Minneapolis e-commerce businesses use our last-mile service to get orders to customers across the metro the same day they ship. Restaurants and retailers in Minneapolis count on our scheduled routes for consistent inventory replenishment. Whatever your delivery needs in Minneapolis, Box Truck Boys has the fleet, the drivers, and the local expertise to get it done right.`,
+Beyond medical courier services, our Minneapolis team handles same-day delivery, final-mile fulfillment, box truck freight, and recurring scheduled routes. Minneapolis e-commerce businesses use our final-mile service to get orders to customers across the metro the same day they ship. Restaurants and retailers in Minneapolis count on our scheduled routes for consistent inventory replenishment. Whatever your delivery needs in Minneapolis, Box Truck Boys has the fleet, the drivers, and the local expertise to get it done right.`,
     services: [
       {
         title: 'Medical Courier Service',
@@ -94,7 +94,7 @@ Serving Saint Paul means understanding the unique logistics of a city built on b
 
 Healthcare delivery is a critical part of our Saint Paul operation. Regions Hospital, United Hospital, and the numerous clinics scattered along West 7th Street and Snelling Avenue rely on Box Truck Boys for lab specimen transport, pharmaceutical deliveries, and scheduled medical supply routes. Our Saint Paul medical couriers maintain full compliance with HIPAA and chain-of-custody requirements, ensuring that sensitive materials arrive safely at their destination every time.
 
-Our Saint Paul service area extends well beyond the city limits. We cover Maplewood, Roseville, Woodbury, and the entire eastern metro from our Saint Paul routes. Businesses in Saint Paul enjoy flexible scheduling, transparent pricing, and a dedicated team that treats every delivery as if their reputation depends on it — because ours does. Whether you need a one-time hot shot delivery or a five-day-a-week recurring route through Saint Paul, Box Truck Boys is ready to serve.`,
+Our Saint Paul service area extends well beyond the city limits. We cover Maplewood, Roseville, Woodbury, and the entire eastern metro from our Saint Paul routes. Businesses in Saint Paul enjoy flexible scheduling, transparent pricing, and a dedicated team that treats every delivery as if their reputation depends on it — because ours does. Whether you need a one-time urgent delivery or a five-day-a-week recurring route through Saint Paul, Box Truck Boys is ready to serve.`,
     services: [
       {
         title: 'Medical Courier Service',
@@ -107,14 +107,9 @@ Our Saint Paul service area extends well beyond the city limits. We cover Maplew
         icon: 'images/icons-color/2.png',
       },
       {
-        title: 'Last-Mile Delivery',
+        title: 'Final-Mile Delivery',
         description: 'E-commerce fulfillment, retail restocking, and direct-to-door delivery throughout Saint Paul, Maplewood, Roseville, and Woodbury.',
         icon: 'images/icons-color/3.png',
-      },
-      {
-        title: 'Hot Shot / Expedited',
-        description: 'Time-critical shipments with a dedicated vehicle and direct route. No stops until your freight reaches its Saint Paul destination.',
-        icon: 'images/icons-color/6.png',
       },
     ],
     landmarks: [
@@ -173,7 +168,7 @@ Whether you are a retailer near the Mall of America needing inventory restocking
         icon: 'images/icons-color/5.png',
       },
       {
-        title: 'Last-Mile Delivery',
+        title: 'Final-Mile Delivery',
         description: 'E-commerce fulfillment and direct-to-door delivery for Bloomington businesses serving customers across the Twin Cities.',
         icon: 'images/icons-color/3.png',
       },
@@ -215,7 +210,7 @@ Brooklyn Park's location in the north metro makes it a strategic hub for busines
 
 Medical courier service in Brooklyn Park is an important part of our operation. Clinics, urgent care centers, and dental offices in Brooklyn Park rely on Box Truck Boys for specimen transport, pharmaceutical delivery, and medical supply logistics. We connect Brooklyn Park healthcare providers with laboratories and hospitals across the metro, maintaining the chain-of-custody standards and timing that medical deliveries require.
 
-For Brooklyn Park businesses looking for a delivery partner that shows up on time and communicates clearly, Box Truck Boys is the answer. We offer same-day delivery, scheduled routes, box truck freight, and hot shot service throughout Brooklyn Park and the surrounding communities of Brooklyn Center, Maple Grove, and Osseo. Our locally owned operation means you talk to real people who know Brooklyn Park and care about getting your delivery right every single time.`,
+For Brooklyn Park businesses looking for a delivery partner that shows up on time and communicates clearly, Box Truck Boys is the answer. We offer same-day delivery, scheduled routes, and box truck freight throughout Brooklyn Park and the surrounding communities of Brooklyn Center, Maple Grove, and Osseo. Our locally owned operation means you talk to real people who know Brooklyn Park and care about getting your delivery right every single time.`,
     services: [
       {
         title: 'Box Truck Freight',
@@ -274,7 +269,7 @@ Plymouth's corporate and medical campuses generate significant demand for profes
 
 Medical courier service in Plymouth connects healthcare providers with the broader Twin Cities medical network. Clinics, specialty practices, and outpatient facilities in Plymouth depend on Box Truck Boys for specimen transport, prescription delivery, and medical equipment logistics. Our Plymouth medical courier runs maintain strict compliance standards and reliable timing, so providers can focus on patient care instead of worrying about logistics.
 
-Plymouth businesses appreciate working with a carrier that is locally owned and genuinely invested in the community. Box Truck Boys offers transparent pricing, responsive communication, and a level of personal attention that national carriers simply cannot match. From same-day delivery and last-mile fulfillment to box truck freight and white glove service, our Plymouth operation covers every delivery need. If your business is in Plymouth and you need a delivery partner you can count on, Box Truck Boys is ready to serve.`,
+Plymouth businesses appreciate working with a carrier that is locally owned and genuinely invested in the community. Box Truck Boys offers transparent pricing, responsive communication, and a level of personal attention that national carriers simply cannot match. From same-day delivery and final-mile fulfillment to box truck freight and white glove service, our Plymouth operation covers every delivery need. If your business is in Plymouth and you need a delivery partner you can count on, Box Truck Boys is ready to serve.`,
     services: [
       {
         title: 'Same-Day Delivery',
@@ -410,11 +405,6 @@ Rochester businesses outside of healthcare also benefit from our presence in the
         description: 'Urgent pickup and delivery throughout Rochester and southeast Minnesota with fast dispatch and dedicated vehicles.',
         icon: 'images/icons-color/2.png',
       },
-      {
-        title: 'Hot Shot / Expedited',
-        description: 'Time-critical medical and commercial shipments with a dedicated vehicle and direct route from Rochester to any destination.',
-        icon: 'images/icons-color/6.png',
-      },
     ],
     landmarks: [
       'Mayo Clinic - Rochester',
@@ -533,7 +523,7 @@ Eden Prairie businesses choose Box Truck Boys because we are a locally owned car
         icon: 'images/icons-color/5.png',
       },
       {
-        title: 'Last-Mile Delivery',
+        title: 'Final-Mile Delivery',
         description: 'E-commerce fulfillment and retail restocking for Eden Prairie businesses serving customers across the Twin Cities.',
         icon: 'images/icons-color/3.png',
       },
@@ -556,7 +546,7 @@ Eden Prairie businesses choose Box Truck Boys because we are a locally owned car
       },
       {
         question: 'What delivery services do you offer in Eden Prairie?',
-        answer: 'We offer same-day delivery, medical courier, box truck freight, scheduled routes, last-mile delivery, white glove service, and hot shot/expedited service throughout Eden Prairie.',
+        answer: 'We offer same-day delivery, medical courier, box truck freight, scheduled routes, final-mile delivery, and white glove service throughout Eden Prairie.',
       },
     ],
     metaDescription: 'Box Truck Boys provides delivery, medical courier, and freight services in Eden Prairie, MN. Southwest metro same-day delivery and logistics. Call (612) 237-7374.',
@@ -574,7 +564,7 @@ Maple Grove's position along I-94 and I-494 makes it a key node in the northwest
 
 Medical courier service in Maple Grove connects local healthcare providers with the broader Twin Cities medical network. Maple Grove Hospital, the CentraCare clinics, and numerous specialty practices rely on Box Truck Boys for specimen transport, pharmaceutical delivery, and medical supply logistics. Our Maple Grove medical courier service maintains the chain-of-custody compliance and temperature-controlled transport capabilities that healthcare delivery demands.
 
-Maple Grove businesses from retail to manufacturing to professional services choose Box Truck Boys for our combination of reliability, responsiveness, and local knowledge. We offer same-day delivery, scheduled routes, box truck freight, and expedited service throughout Maple Grove and the surrounding northwest metro. If your Maple Grove business needs a delivery partner that will treat every shipment with the urgency and care it deserves, Box Truck Boys is here for you.`,
+Maple Grove businesses from retail to manufacturing to professional services choose Box Truck Boys for our combination of reliability, responsiveness, and local knowledge. We offer same-day delivery, scheduled routes, and box truck freight throughout Maple Grove and the surrounding northwest metro. If your Maple Grove business needs a delivery partner that will treat every shipment with the urgency and care it deserves, Box Truck Boys is here for you.`,
     services: [
       {
         title: 'Same-Day Delivery',

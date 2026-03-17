@@ -28,7 +28,7 @@ export default function Header() {
                       <li><Link href="/services">All Services</Link></li>
                       <li><Link href="/services/medical-courier">Medical Courier</Link></li>
                       <li><Link href="/services/same-day">Same-Day Delivery</Link></li>
-                      <li><Link href="/services/last-mile">Last-Mile Delivery</Link></li>
+                      <li><Link href="/services/last-mile">Final-Mile Delivery</Link></li>
                     </ul>
                   </li>
                   <li>

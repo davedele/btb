@@ -134,13 +134,7 @@ export default function Page() {
 
                                         <div className="item">
                                             <i className="icofont-quote-left id-color fs-40 mb-4 wow fadeInUp"></i>
-                                            <h3 className="mb-4 wow fadeInUp fs-32">When we needed an emergency hot shot delivery to Rochester, Box Truck Boys dispatched within 30 minutes. That is the kind of service you cannot find everywhere.</h3>
-                                            <span className="wow fadeInUp">Purchasing Director, Midwest Manufacturing</span>
-                                        </div>
-
-                                        <div className="item">
-                                            <i className="icofont-quote-left id-color fs-40 mb-4 wow fadeInUp"></i>
-                                            <h3 className="mb-4 wow fadeInUp fs-32">Their last-mile delivery service handles our e-commerce fulfillment flawlessly. Our customers get their orders on time and in perfect condition.</h3>
+                                            <h3 className="mb-4 wow fadeInUp fs-32">Their final-mile delivery service handles our e-commerce fulfillment flawlessly. Our customers get their orders on time and in perfect condition.</h3>
                                             <span className="wow fadeInUp">Founder, Lakes &amp; Co. Home Goods</span>
                                         </div>
 

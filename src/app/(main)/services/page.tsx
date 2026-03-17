@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Delivery Services | Box Truck Boys Trucking Minneapolis",
-  description: "Medical courier, same-day delivery, last-mile, box truck freight, hot shot, white glove, and LTL shipping services in Minneapolis and the Twin Cities. Call (612) 237-7374.",
+  description: "Medical courier, same-day delivery, final-mile, box truck freight, white glove, and LTL shipping services in Minneapolis and the Twin Cities. Call (612) 237-7374.",
 };
 
 export default function Page() {
@@ -48,10 +48,10 @@ export default function Page() {
                             </a>
                         </div>
 
-                        <div id="last-mile" className="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay=".4s">
+                        <div id="final-mile" className="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay=".4s">
                             <a href="/services/last-mile" className="d-block hover relative">
                                 <img src="images/icons-color/3.png" className="w-70px mb-3 hover-jello infinite" alt="" />
-                                <h4>Last-Mile Delivery</h4>
+                                <h4>Final-Mile Delivery</h4>
                                 <p>The final leg of your supply chain, handled with care. E-commerce fulfillment, retail restocking, and direct-to-door delivery throughout Minneapolis and Saint Paul.</p>
                             </a>
                         </div>
@@ -72,13 +72,6 @@ export default function Page() {
                             </a>
                         </div>
 
-                        <div id="hot-shot" className="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay=".2s">
-                            <a href="/services/hot-shot" className="d-block hover relative">
-                                <img src="images/icons-color/6.png" className="w-70px mb-3 hover-jello infinite" alt="" />
-                                <h4>Hot Shot / Expedited</h4>
-                                <p>Time-critical shipments that cannot wait. Dedicated vehicle, direct route, no stops until your freight arrives at its destination.</p>
-                            </a>
-                        </div>
 
                         <div id="white-glove" className="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay=".4s">
                             <a href="/services/white-glove" className="d-block hover relative">
@@ -148,13 +141,7 @@ export default function Page() {
 
                                         <div className="item">
                                             <i className="icofont-quote-left id-color fs-40 mb-4 wow fadeInUp"></i>
-                                            <h3 className="mb-4 wow fadeInUp fs-32">When we needed an emergency hot shot delivery to Rochester, Box Truck Boys dispatched within 30 minutes. That is the kind of service you cannot find everywhere.</h3>
-                                            <span className="wow fadeInUp">Purchasing Director, Midwest Manufacturing</span>
-                                        </div>
-
-                                        <div className="item">
-                                            <i className="icofont-quote-left id-color fs-40 mb-4 wow fadeInUp"></i>
-                                            <h3 className="mb-4 wow fadeInUp fs-32">Their last-mile delivery service handles our e-commerce fulfillment flawlessly. Our customers get their orders on time and in perfect condition.</h3>
+                                            <h3 className="mb-4 wow fadeInUp fs-32">Their final-mile delivery service handles our e-commerce fulfillment flawlessly. Our customers get their orders on time and in perfect condition.</h3>
                                             <span className="wow fadeInUp">Founder, Lakes &amp; Co. Home Goods</span>
                                         </div>
 
