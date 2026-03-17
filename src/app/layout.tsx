@@ -133,7 +133,7 @@ export default function RootLayout({
         </div>
 
         {/* Javascript Files */}
-        <Script src="/js/plugins.js" strategy="afterInteractive" />
+        <Script src="/js/plugins.js" strategy="beforeInteractive" />
         <Script src="/js/designesia.js" strategy="afterInteractive" />
         <Script src="/js/swiper.js" strategy="afterInteractive" />
         <Script src="/js/custom-swiper-1.js" strategy="afterInteractive" />

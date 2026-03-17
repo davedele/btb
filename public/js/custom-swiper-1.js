@@ -1,43 +1,50 @@
-const swiper = new Swiper('.swiper', {
-  autoplay: {
-    delay: 8000,
-    disableOnInteraction: false
-  },
-  rewind: true,
-  spaceBetween: 0,
-  effect: "creative",
-  speed: 1500, // transition speed
+(function() {
+  function initCustomSwiper() {
+    var el = document.querySelector('.swiper');
+    if (!el) return;
 
-  creativeEffect: {
-    prev: {
-      // Zoom out (shrink + fade)
-      scale: 1.1,
-      opacity: 0,
-      translate: [0, 0, 0], // stay centered
-    },
-    next: {
-      // Zoom in (grow + fade in)
-      scale: 1.3,
-      opacity: 0,
-      translate: [0, 0, 0], // stay centered
-    },
-  },
+    // Destroy existing instance if any
+    if (el.swiper) {
+      el.swiper.destroy(true, true);
+    }
 
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-  pagination: {
-    el: false,
-    clickable: false,
-  },
-  on: {
-    slideChange: function () {
-      const activeSlide = this.slides[this.activeIndex];
-      const video = activeSlide.querySelector('video');
-      if (video) {
-        video.play().catch(e => console.log(e));
+    new Swiper('.swiper', {
+      autoplay: {
+        delay: 8000,
+        disableOnInteraction: false
+      },
+      rewind: true,
+      speed: 1000,
+
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+
+      on: {
+        slideChangeTransitionEnd: function () {
+          var active = this.slides[this.activeIndex];
+          if (!active) return;
+          var video = active.querySelector('video');
+          if (video) {
+            video.currentTime = 0;
+            video.play().catch(function() {});
+          }
+        }
       }
+    });
+  }
+
+  // Expose globally so TemplateReinit can call it on route changes
+  window.initCustomSwiper = initCustomSwiper;
+
+  // Wait for Swiper library to be available, then init
+  function waitAndInit() {
+    if (typeof Swiper !== 'undefined') {
+      initCustomSwiper();
+    } else {
+      setTimeout(waitAndInit, 100);
     }
   }
-});
+  waitAndInit();
+})();

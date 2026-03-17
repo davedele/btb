@@ -7,12 +7,20 @@ export default function TemplateReinit() {
   const pathname = usePathname();
 
   useEffect(() => {
-    // Wait for template scripts to load and DOM to settle after route change
-    const timer = setTimeout(() => {
+    let attempts = 0;
+    const maxAttempts = 20; // 20 * 200ms = 4s max wait
+
+    function tryInit() {
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       const w = window as any;
       const $ = w.jQuery || w.$;
-      if (!$) return;
+      if (!$) {
+        attempts++;
+        if (attempts < maxAttempts) {
+          timerId = setTimeout(tryInit, 200);
+        }
+        return;
+      }
 
       // Re-trigger WOW.js animations
       if (typeof w.WOW === "function") {
@@ -54,20 +62,14 @@ export default function TemplateReinit() {
         // Owl carousel may not be loaded yet
       }
 
-      // Re-init Swiper
+      // Re-init Swiper — handled by custom-swiper-1.js, just destroy stale instances
       try {
-        const swiperEl = document.querySelector(".swiper");
-        if (swiperEl && typeof w.Swiper === "function") {
-          new w.Swiper(".swiper", {
-            loop: true,
-            autoplay: { delay: 6000, disableOnInteraction: false },
-            pagination: { el: ".swiper-pagination", clickable: true },
-            navigation: {
-              nextEl: ".swiper-button-next",
-              prevEl: ".swiper-button-prev",
-            },
-            speed: 1200,
-          });
+        const swiperEl = document.querySelector(".swiper") as any;
+        if (swiperEl && swiperEl.swiper) {
+          swiperEl.swiper.destroy(true, true);
+        }
+        if (typeof w.initCustomSwiper === "function") {
+          w.initCustomSwiper();
         }
       } catch {
         // Swiper may not be loaded yet
@@ -118,9 +120,11 @@ export default function TemplateReinit() {
       } catch {
         // Template JS functions may not be available
       }
-    }, 200);
+    }
 
-    return () => clearTimeout(timer);
+    let timerId = setTimeout(tryInit, 200);
+
+    return () => clearTimeout(timerId);
   }, [pathname]);
 
   return null;

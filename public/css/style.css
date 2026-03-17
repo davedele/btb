@@ -13164,6 +13164,7 @@ img {
 
   header .logo-mobile {
     display: block;
+    width: 126px;
   }
 
   header .menu_side_area .btn-main{
