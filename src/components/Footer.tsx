@@ -46,7 +46,7 @@ export default function Footer() {
 
               <div className="widget">
                 <div className="op-5 fs-15">Email</div>
-                <h3>contact@boxtruckboys.com</h3>
+                <h3>Boxtruckboystrucking@gmail.com</h3>
 
                 <div className="spacer-20"></div>
 
@@ -106,7 +106,7 @@ export default function Footer() {
 
           <h5>Contact Us</h5>
           <div><i className="icofont-phone me-2 op-5"></i>(612) 237-7374</div>
-          <div><i className="icofont-envelope me-2 op-5"></i>contact@boxtruckboys.com</div>
+          <div><i className="icofont-envelope me-2 op-5"></i>Boxtruckboystrucking@gmail.com</div>
           <div><i className="icofont-location-pin me-2 op-5"></i>3327 N Washburn Ave, Minneapolis MN 55412</div>
 
           <div className="spacer-30-line"></div>

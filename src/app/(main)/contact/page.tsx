@@ -63,7 +63,7 @@ export default function Page() {
                                     <i className="abs fs-28 p-3 bg-color text-light rounded-1 icofont-envelope"></i>
                                     <div className="ms-80px">
                                         <h4 className="mb-0">Send a Message</h4>
-                                        contact@boxtruckboys.com
+                                        Boxtruckboystrucking@gmail.com
                                     </div>
                                 </div>
 

@@ -40,7 +40,7 @@ export default async function CityPage({ params }: PageProps) {
     name: 'Box Truck Boys Trucking',
     description: city.metaDescription,
     telephone: '(612) 237-7374',
-    email: 'contact@boxtruckboys.com',
+    email: 'Boxtruckboystrucking@gmail.com',
     url: `https://${slug}.boxtruckboys.com`,
     address: {
       '@type': 'PostalAddress',
@@ -336,8 +336,8 @@ export default async function CityPage({ params }: PageProps) {
                     (612) 237-7374
                   </a>{' '}
                   or email{' '}
-                  <a href="mailto:contact@boxtruckboys.com" className="text-white fw-bold">
-                    contact@boxtruckboys.com
+                  <a href="mailto:Boxtruckboystrucking@gmail.com" className="text-white fw-bold">
+                    Boxtruckboystrucking@gmail.com
                   </a>{' '}
                   for delivery service in {city.name}, {city.stateAbbrev}.
                 </p>

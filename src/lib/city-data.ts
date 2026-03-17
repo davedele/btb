@@ -315,7 +315,7 @@ Plymouth businesses appreciate working with a carrier that is locally owned and 
       },
       {
         question: 'How do I schedule a recurring route in Plymouth?',
-        answer: 'Call us at (612) 237-7374 or email contact@boxtruckboys.com. We will work with you to build a consistent daily or weekly route that meets your Plymouth delivery needs and schedule.',
+        answer: 'Call us at (612) 237-7374 or email Boxtruckboystrucking@gmail.com. We will work with you to build a consistent daily or weekly route that meets your Plymouth delivery needs and schedule.',
       },
     ],
     metaDescription: 'Box Truck Boys offers same-day delivery, medical courier, and freight services in Plymouth, MN. Serving the west metro and Highway 55 corridor. Call (612) 237-7374.',

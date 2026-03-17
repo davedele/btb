@@ -22,7 +22,7 @@ export async function POST(request: Request) {
         },
         body: JSON.stringify({
           from: "Box Truck Boys Website <noreply@boxtruckboys.com>",
-          to: "contact@boxtruckboys.com",
+          to: "Boxtruckboystrucking@gmail.com",
           subject: `New Quote Request: ${service} — ${name}`,
           html: `
             <h2>New Quote Request from BoxTruckBoys.com</h2>

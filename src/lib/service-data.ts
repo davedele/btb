@@ -117,7 +117,7 @@ Same-day delivery is not just about speed — it is about reliability. When you 
       },
       {
         question: 'How much does same-day delivery cost?',
-        answer: 'Same-day pricing depends on distance, shipment size, and urgency. We provide transparent quotes before pickup so there are no surprises. Call (612) 237-7374 or email contact@boxtruckboys.com for a quick quote.',
+        answer: 'Same-day pricing depends on distance, shipment size, and urgency. We provide transparent quotes before pickup so there are no surprises. Call (612) 237-7374 or email Boxtruckboystrucking@gmail.com for a quick quote.',
       },
     ],
     testimonial: {

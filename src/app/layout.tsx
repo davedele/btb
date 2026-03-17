@@ -48,7 +48,7 @@ const jsonLd = {
     "Medical courier, same-day delivery, last-mile delivery, and box truck freight services in Minneapolis and the Twin Cities.",
   url: "https://boxtruckboys.com",
   telephone: "(612) 237-7374",
-  email: "contact@boxtruckboys.com",
+  email: "Boxtruckboystrucking@gmail.com",
   address: [
     {
       "@type": "PostalAddress",
