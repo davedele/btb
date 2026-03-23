@@ -1,5 +1,6 @@
 import Script from "next/script";
 import type { Metadata } from "next";
+import { Analytics } from '@vercel/analytics/next';
 
 import TemplateReinit from "@/components/TemplateReinit";
 
@@ -137,6 +138,7 @@ export default function RootLayout({
         <Script src="/js/custom-swiper-1.js" strategy="afterInteractive" />
         <Script src="/js/custom-marquee.js" strategy="afterInteractive" />
         <TemplateReinit />
+        <Analytics />
       </body>
     </html>
   );
