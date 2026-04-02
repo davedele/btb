@@ -54,9 +54,9 @@ export default function Footer() {
 
                 <div className="spacer-20"></div>
 
-                <div className="op-5 fs-15">Office Locations</div>
+                {/* <div className="op-5 fs-15">Office Locations</div>
                 <h3>3327 N Washburn Ave, Minneapolis MN 55412</h3>
-                <h3 className="mt-2">7734 Nebraska Ave, Omaha NE 68134</h3>
+                <h3 className="mt-2">7734 Nebraska Ave, Omaha NE 68134</h3> */}
 
                 <div className="spacer-20"></div>
 
