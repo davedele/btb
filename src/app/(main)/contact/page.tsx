@@ -43,7 +43,7 @@ export default function Page() {
 
                         <div className="row">
                             <div className="col-lg-12">
-                                <div className="relative mb-4">
+                                {/* <div className="relative mb-4">
                                     <i className="abs fs-28 p-3 bg-color text-light rounded-1 icofont-location-pin"></i>
                                     <div className="ms-80px">
                                         <h4 className="mb-0">Minneapolis HQ</h4>
@@ -57,7 +57,7 @@ export default function Page() {
                                         <h4 className="mb-0">Omaha Office</h4>
                                         7734 Nebraska Ave, Omaha NE 68134
                                     </div>
-                                </div>
+                                </div> */}
 
                                 <div className="relative mb-4">
                                     <i className="abs fs-28 p-3 bg-color text-light rounded-1 icofont-envelope"></i>
